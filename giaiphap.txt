@@ -1,0 +1,2 @@
+Nhờ cờ --web.enable-lifecycle đã thiết lập trong docker-compose.yml, bạn có thể bắn một request HTTP POST vào hệ thống. Prometheus sẽ đọc lại file prometheus.yml ngay lập tức mà không cần phải dừng tiến trình
+curl -X POST http://localhost:9090/-/reload
